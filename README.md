@@ -30,7 +30,7 @@ FamilyTree is an Android application developed as a full-stack solution for visu
 ## Setup and Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourgithubusername/FamilyTree.git
+   git clone https://github.com/Lydia-L-Guo/FamilyTree.git
 2. **Database Configuration**:
    - Create a MySQL database named `genealogy`.
    - Import the provided `genealogy.sql` file to set up the necessary tables.

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  	  <filter>
+		<filter-name>CharacterEncoding</filter-name>
+		<filter-class>com.example.filter.CharacterFilter</filter-class>
+	 </filter>
+	 <filter-mapping>
+		<filter-name>CharacterEncoding</filter-name>
+		<url-pattern>/*</url-pattern>
+	 </filter-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addBook</servlet-name>
+    <servlet-class>com.example.action.addBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addPerson</servlet-name>
+    <servlet-class>com.example.action.addPerson</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delBook</servlet-name>
+    <servlet-class>com.example.action.delBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delPerson</servlet-name>
+    <servlet-class>com.example.action.delPerson</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getBook</servlet-name>
+    <servlet-class>com.example.action.getBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getPerSonById</servlet-name>
+    <servlet-class>com.example.action.getPerSonById</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getPserSonByGid</servlet-name>
+    <servlet-class>com.example.action.getPserSonByGid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.example.action.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Regist</servlet-name>
+    <servlet-class>com.example.action.Regist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateBook</servlet-name>
+    <servlet-class>com.example.action.updateBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatePerson</servlet-name>
+    <servlet-class>com.example.action.updatePerson</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addFamily</servlet-name>
+    <servlet-class>com.example.action.addFamily</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatePassword</servlet-name>
+    <servlet-class>com.example.action.updatePassword</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>addBook</servlet-name>
+    <url-pattern>/addBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addPerson</servlet-name>
+    <url-pattern>/addPerson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delBook</servlet-name>
+    <url-pattern>/delBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delPerson</servlet-name>
+    <url-pattern>/delPerson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getBook</servlet-name>
+    <url-pattern>/getBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getPerSonById</servlet-name>
+    <url-pattern>/getPerSonById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getPserSonByGid</servlet-name>
+    <url-pattern>/getPserSonByGid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Regist</servlet-name>
+    <url-pattern>/Regist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateBook</servlet-name>
+    <url-pattern>/updateBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatePerson</servlet-name>
+    <url-pattern>/updatePerson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addFamily</servlet-name>
+    <url-pattern>/addFamily</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatePassword</servlet-name>
+    <url-pattern>/updatePassword</url-pattern>
+  </servlet-mapping>
+</web-app>

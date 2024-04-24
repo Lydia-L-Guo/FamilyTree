@@ -3,6 +3,7 @@
 ## Overview
 FamilyTree is an Android application developed as a full-stack solution for visualizing and managing family genealogical data. Users can visually view their family tree, add and edit individual profiles, and perform detailed searches within their family genealogy.
 
+<img src="[https://github.com/Lydia-L-Guo/PokemonAlbum/assets/163066831/bddeec48-c2e9-40a5-bcbf-d6d349355491](https://github.com/Lydia-L-Guo/FamilyTree/blob/main/cfamilycontact.sql)" width="300">
 ## Features
 - **Visual Family Tree**: Users can view their family tree in a visual format, making it easier to understand family relationships.
 - **Add/Edit Family Members**: Users can add new members to the family tree, edit details of existing members, and manage their information.

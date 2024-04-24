@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_view" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <include
+            android:id="@+id/h_alayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/p_abiew" />
+          <include
+            android:id="@+id/h_blayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            layout="@layout/p_bbiew" />
+            <include
+            android:id="@+id/h_clayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            layout="@layout/p_cview" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#aa000000" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="5dp"
+        layout="@layout/bottom_view"
+        android:background="#ffffff" />
+
+</LinearLayout>

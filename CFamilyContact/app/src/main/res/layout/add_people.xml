@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_select_pub"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+             <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_boy_portrait_unchecked"
+            android:gravity="bottom|center_horizontal"
+          
+            android:textSize="13sp" />
+             
+             <TextView 
+                 android:layout_width="60dp"
+                 android:layout_height="fill_parent"
+                 
+                 android:background="@drawable/mark_shape"
+                 android:elevation="3dp"
+                 android:textSize="12sp"
+                 android:gravity="center"
+                 android:textColor="#000000"
+                  android:text="添加父亲"
+                  android:id="@+id/add_peo_father"
+                 />
+            
+        </LinearLayout>
+       
+
+        
+        
+        
+        
+          <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+           <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_girl_portrait_unchecked"
+            android:gravity="bottom|center_horizontal"
+          
+            android:textSize="13sp" />
+             
+             <TextView 
+                 android:layout_width="60dp"
+                 android:layout_height="fill_parent"
+                 
+                 android:background="@drawable/mark_shape"
+                 android:elevation="3dp"
+                 android:textSize="12sp"
+                 android:gravity="center"
+                 android:textColor="#000000"
+                 android:text="添加母亲"
+                      android:id="@+id/add_peo_mather"
+                 />
+            
+        </LinearLayout>
+       
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+     
+             
+          <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+           <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_girl_portrait_unchecked"
+            android:gravity="bottom|center_horizontal"
+            android:id="@+id/add_coup_img"
+            android:textSize="13sp" />
+             
+             <TextView 
+                 android:layout_width="60dp"
+                 android:layout_height="fill_parent"
+                 
+                 android:background="@drawable/mark_shape"
+                 android:elevation="3dp"
+                 android:textSize="12sp"
+                 android:gravity="center"
+                 android:textColor="#000000"
+                 android:text="添加妻子"
+                      android:id="@+id/add_peo_wif"
+                 />
+            
+        </LinearLayout>
+            
+            
+            
+            
+        </LinearLayout>
+
+         <LinearLayout
+            android:id="@+id/add_layout"
+            android:layout_width="190dp"
+            android:layout_height="160dp"
+            android:background="@drawable/mark_shape"
+            android:elevation="6dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/ic_boy_portrait_unchecked"
+                     android:id="@+id/add_self_img"
+                    android:gravity="bottom|center_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="姓名："
+                             android:textColor="#000000"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent" 
+                            android:id="@+id/add_peo_name"
+                           
+                            
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="性别："
+                            android:textColor="#000000"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent" 
+                            
+                                  android:id="@+id/add_peo_sex"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" 
+                android:orientation="horizontal"
+                android:gravity="center_horizontal|bottom"
+                android:layout_marginBottom="5dp"
+                >
+
+                   <Button
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/sele_adp"
+                    android:text="编辑"
+                    android:textSize="12sp"
+                    
+                          android:id="@+id/add_peo_editbtn"
+                     />
+
+                   <Button
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                     android:background="@drawable/sele_adp"
+                    android:text="删除"
+                       android:id="@+id/add_peo_delbtn"
+                    android:textSize="12sp" />
+                
+                   <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                   
+                    android:background="@drawable/sele_adp"
+                    android:text="邀请"
+                       android:id="@+id/add_peo_yaoqingbtn"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            
+            
+                  
+          <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+         
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/ic_boy_portrait_unchecked"
+                android:gravity="bottom|center_horizontal"
+              
+                android:textSize="13sp" />
+             
+             <TextView 
+                 android:layout_width="60dp"
+                 android:layout_height="fill_parent"
+                 
+                 android:background="@drawable/mark_shape"
+                 android:elevation="3dp"
+                 android:textSize="12sp"
+                 android:gravity="center"
+                 android:textColor="#000000"
+                android:text="添加兄弟"
+                     android:id="@+id/add_peo_bro"
+                 />
+            
+        </LinearLayout>
+            
+
+            
+            
+                       
+          <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+         
+           
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/ic_girl_portrait_unchecked"
+                android:gravity="bottom|center_horizontal"
+               
+                android:textSize="13sp" />
+            
+             
+             <TextView 
+                 android:layout_width="60dp"
+                 android:layout_height="fill_parent"
+                 
+                 android:background="@drawable/mark_shape"
+                 android:elevation="3dp"
+                 android:textSize="12sp"
+                 android:gravity="center"
+                 android:textColor="#000000"
+               android:text="添加姐妹"
+                    android:id="@+id/add_peo_sis"
+                 />
+            
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+          <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+         
+         
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_boy_portrait_unchecked"
+            android:gravity="bottom|center_horizontal"
+          
+            android:textSize="13sp" />
+        
+        
+                        
+             
+             <TextView 
+                 android:layout_width="60dp"
+                 android:layout_height="fill_parent"
+                 
+                 android:background="@drawable/mark_shape"
+                 android:elevation="3dp"
+                 android:textSize="12sp"
+                 android:gravity="center"
+                 android:textColor="#000000"
+              android:text="添加儿子"
+                   android:id="@+id/add_peo_son"
+                 />
+            
+        </LinearLayout>
+        
+
+          
+            <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+         
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_girl_portrait_unchecked"
+            android:gravity="bottom|center_horizontal"
+       
+            android:textSize="13sp" />
+             
+             <TextView 
+                 android:layout_width="60dp"
+                 android:layout_height="fill_parent"
+                 
+                 android:background="@drawable/mark_shape"
+                 android:elevation="3dp"
+                 android:textSize="12sp"
+                 android:gravity="center"
+                 android:textColor="#000000"
+                android:text="添加女儿"
+                     android:id="@+id/add_peo_dau"
+                 />
+            
+        </LinearLayout>
+        
+      
+    </LinearLayout>
+
+</LinearLayout>
